@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework assignment 01/09/2022</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        h1{
+            text-align: center;
+            color: blue;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        form{
+            border: 3px solid blue;
+            background-color: white;
+            width: 600px;
+            margin: 10px;
+        }
+        div{
+            border: 3px solid blue;
+            background-color: white;
+            width: 600px;
+            margin: 10px;       
+        }
+        table, th, td{
+            text-align: center;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homework assignment</h1>
+    <h2 id="menu">Table of content</h2>
+    <ul>
+        <li><a href="#e1&2">Excersize 1&2</a></li>
+        <li><a href="#e3">Excersize 3</a></li>
+        <li><a href="#e4">Excersize 4</a></li>
+        <li><a href="#e5">Excersize 5</a></li>
+        <li><a href="#e6">Excersize 6</a></li>
+    </ul>
+        <form name ="Ex. 1&2" action="" id="e1&2">
+        <h1 style="color: black;">My form</h1>
+        <label for="name_id">My name:</label>
+        <input type="text" id="name_id" name="name_name" required maxlength="10">
+        <br><br>
+        <label for="pass_id">My password:</label>
+        <input type="password" id="pass_id" name="pass_name" required value="123456">
+        <br><br>
+        <label for="email_id">My E-mail address:</label>
+        <input type="email" id="email_id" name="email_name" required>
+        <br><br>
+        <label for="city_id">Choose a city:</label>
+        <select name="city_name" id="city_id" title="Ex. 1">
+            <option value="NY">New-York city</option>
+            <option value="LA">Los-Angeles</option>
+            <option value="DC">Washington DC</option>
+        </select>
+        <br><br>
+        <input type="submit" name="submit" value="send"><br><br>
+        <a href="#menu">Back to top</a>
+    </form>
+    <div id="e3">
+        <h1>Tomato pasta bake</h1>
+        <p>
+            Make this simple student <b>pasta and tomato</b> dish for a delicious, filling and budget-friendly supper.
+            it is to use up simple storecupboard ingredients.
+        </p>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>1 tbsp olive oil</li>
+            <li>1 onion, chopped</li>
+            <li>400g can cherry or chopped tomatos</li>
+            <li>pinch sugar</li>
+        </ul>
+        <h2>Preparation</h2>
+        <ol>
+            <li>Heat the oil in a medium pan and fry the onion for 5 mins until softend and lightly golden.</li>
+            <li>Meanwhile, cook the pasta according to pack instruction. Heat the grill to high. Mix together the cheese and bresdcrumbs.</li>
+            <li>Drain the pasta and stir into the sauce. Tip in the Frankfurters and spoon into a heatproof dish.</li>
+        </ol>
+        <a href="#menu">Back to top</a>
+    </div>
+    <form name="e4" action="" id="e4">
+        <h1>Let's go somewhere</h1>
+        <p>
+        <label for="name_id">First name:</label>
+        <input type="text" id="gname_id" name="gname_name" required autofocus>
+        <br>
+        <label for="sname_id">Family name</label>
+        <input type="text" id="sname_id" name="sname_name" required placeholder="Put your family name here">
+        </p>
+        <label for="gender">Gender:</label>&nbsp;
+        <input type="radio" id="G_male" name="gender">&nbsp;<label for="G_male">Male</label>&nbsp;
+        <input type="radio" id="G_female" name="gender">&nbsp;<label for="G_female">Female</label>
+        <p style="margin-top: 20px;">
+            <label for="from_id">Choose a city:</label>&nbsp;
+            <select name="from_name" id="from_id">
+                <option value="TLV">Tel-Aviv</option>
+                <option value="BS">Beer-Sheva</option>
+                <option value="ELT">Eilat</option>
+            </select>
+        </p>
+        <p>
+            Date of travel:<br>
+            <label for="start_id">From:</label>
+            <input type="date" id="start_id" name="start_name">&nbsp;
+            <label for="end_id">To:</label>
+            <input type="date" id="end_id" name="end_name">
+        </p>
+        <p>
+            Give me deals for:<br>
+            <input type="checkbox" id="Kiev" name="dest"><label for="Kiev">Kiev</label><br>
+            <input type="checkbox" id="Amsterdam" name="dest"><label for="Amsterdam">Amsterdam</label><br>
+            <input type="checkbox" id="Rome" name="dest"><label for="Rome">Rome</label><br>
+            <input type="checkbox" id="London" name="dest"><label for="London">London</label>
+        </p>
+        <input type="submit"><br>
+        <a href="#menu">Back to top</a>
+    </form>
+    <div id="e5">
+        <h1>Ecom academy</h1>
+        <h2>Address</h2>
+        <address>XX Ramat gan</address>
+        <h2>Phone</h2>
+        <pre>054 999 8888</pre>
+        <h2>Website</h2>
+        <a href="http://www.ecom.com">http://www.ecom.com</a>
+        <h2>Hours</h2>
+        <table>
+            <tr>
+                <th>-</th>
+                <th>Morning</th>
+                <th>Afternoon</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Closed</td>
+                <td>13:30-17:30</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>08:30-12:15</td>
+                <td>13:30-17:30</td>
+            </tr>
+            <tr>
+                <th>Wednsday</th>
+                <td>08:30-12:15</td>
+                <td>13:30-17:30</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>08:30-12:15</td>
+                <td>13:30-17:30</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>08:30-12:15</td>
+                <td>13:30-17:30</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>09:00-12:00</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Closed</td>
+                <td>Closed</td>
+            </tr>
+  
+        </table>
+        <a href="#menu">Back to top</a>
+    </div>
+    <div id="e6">
+    <h1>Fortnite</h1>
+    <p>
+    Fortnite is an online video game developed by Epic Games and released in 2017. 
+    It is available in three distinct game mode versions that otherwise share the same general gameplay and game engine: 
+    Fortnite: Save the World, a cooperative hybrid tower defense-shooter and survival game in which up to four players 
+    fight off zombie-like creatures and defend objects with traps and fortifications they can build;
+    </p>
+    <h2>Characters</h2>
+    <table>
+        <tr>
+            <th>Picture</th>
+            <th>Name</th>
+            <th>Date of birth</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td><img src="Emy.jpg" alt="Emy"></td>
+            <td>Emy</td>
+            <td>2000</td>
+            <td>
+                <input type="button" value="Modify" name="mod_name1" id="mod_id1">
+                <input type="button" value="Delete" name="del_name1" id="del_id1">
+            </td>
+        </tr>
+        <tr>
+            <td><img src="Ray.jpg" alt="Ray"></td>
+            <td>Ray</td>
+            <td>2001</td>
+            <td>
+                <input type="button" value="Modify" name="mod_name2" id="mod_id2">
+                <input type="button" value="Delete" name="del_name2" id="del_id2">
+            </td>
+        </tr>
+        <tr>
+            <td><img src="Ramirez.jpg" alt="Ramirez"></td>
+            <td>Ramirez</td>
+            <td>2003</td>
+            <td>
+                <input type="button" value="Modify" name="mod_name3" id="mod_id3">
+                <input type="button" value="Delete" name="del_name3" id="del_id3">
+            </td>
+        </tr>
+    </table>
+    <a href="#menu">Back to top</a>
+    </div>
+    <table id="e7" style="width: 600px;">
+        <tr>
+            <th style="background-color: yellow;">X</th>
+            <th style="background-color: grey;">1</th>
+            <th style="background-color: grey;">2</th>
+            <th style="background-color: grey;">3</th>
+            <th style="background-color: grey;">4</th>
+            <th style="background-color: grey;">5</th>
+            <th style="background-color: grey;">6</th>
+            <th style="background-color: grey;">7</th>
+            <th style="background-color: grey;">8</th>
+            <th style="background-color: grey;">9</th>
+            <th style="background-color: grey;">10</th>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">1</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">2</th>
+            <td>2</td>
+            <td>4</td>
+            <td>6</td>
+            <td>8</td>
+            <td>10</td>
+            <td>12</td>
+            <td>14</td>
+            <td>16</td>
+            <td>18</td>
+            <td>20</td>   
+        </tr>
+        <tr>
+            <th style="background-color: grey;">3</th>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+            <td>12</td>
+            <td>15</td>
+            <td>18</td>
+            <td>21</td>
+            <td>24</td>
+            <td>27</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">4</th>
+            <td>4</td>
+            <td>8</td>
+            <td>12</td>
+            <td>16</td>
+            <td>20</td>
+            <td>24</td>
+            <td>28</td>
+            <td>32</td>
+            <td>26</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">5</th>
+            <td>5</td>
+            <td>10</td>
+            <td>5</td>
+            <td>20</td>
+            <td>5</td>
+            <td>0</td>
+            <td>5</td>
+            <td>0</td>
+            <td>5</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">6</th>
+            <td>6</td>
+            <td>12</td>
+            <td>18</td>
+            <td>24</td>
+            <td>30</td>
+            <td>36</td>
+            <td>42</td>
+            <td>48</td>
+            <td>54</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">7</th>
+            <td>7</td>
+            <td>14</td>
+            <td>21</td>
+            <td>28</td>
+            <td>35</td>
+            <td>42</td>
+            <td>49</td>
+            <td>56</td>
+            <td>63</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">8</th>
+            <td>8</td>
+            <td>16</td>
+            <td>24</td>
+            <td>32</td>
+            <td>40</td>
+            <td>48</td>
+            <td>56</td>
+            <td>64</td>
+            <td>72</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">9</th>
+            <td>9</td>
+            <td>18</td>
+            <td>27</td>
+            <td>36</td>
+            <td>45</td>
+            <td>54</td>
+            <td>63</td>
+            <td>72</td>
+            <td>81</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <th style="background-color: grey;">10</th>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+            <td>70</td>
+            <td>80</td>
+            <td>90</td>
+            <td>100</td>
+        </tr>
+    </table>
+</body>
+</html>
